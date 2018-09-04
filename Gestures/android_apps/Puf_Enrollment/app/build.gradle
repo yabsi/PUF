@@ -22,11 +22,10 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
-    compile files('src/main/java/puf/iastate/edu/puf_enrollment/libs/opencsv-3.5.jar')
+    compile files('libs/opencsv-3.7.jar')
     compile 'com.android.support:appcompat-v7:22.2.1'
     compile 'com.google.code.gson:gson:2.2.+'
     compile 'com.android.support:design:22.2.1'
     compile files('libs/UD_PUF.jar')
-    compile files('libs/UD-PUF.jar')
     compile files('libs/opencsv-3.7.jar')
 }
